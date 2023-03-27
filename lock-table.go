@@ -122,7 +122,6 @@ func (g *guard) waitOnAndDeadLockDetect() error {
 				fmt.Println(info)
 				return err
 			}
-			return nil
 		default:
 			// do nothing
 		}
